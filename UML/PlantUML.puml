@@ -1,0 +1,22 @@
+﻿@startuml
+namespace Saito.Json.SaveSystem{
+class Data {
+ +string name;
+ +int id;
+}
+
+class SaveManager {
+ +Save();
+ +load();
+ -SaveManager();
+}
+
+class SaveTest {
+ -Update()
+}
+
+SaveManager --* Data
+SaveManager <..SaveTest
+
+}
+@enduml

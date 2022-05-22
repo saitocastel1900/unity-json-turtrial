@@ -1,0 +1,8 @@
+{
+ "player" : [
+    { "name" : "saito1", "playerinfo" : {  "child" : true,"age": 10 } 
+    },
+    { "name" : "saito2", "playerinfo" : {  "child" : false,"age": 15 } 
+    }
+ ]
+}
